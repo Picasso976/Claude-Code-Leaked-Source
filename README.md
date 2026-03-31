@@ -89,7 +89,7 @@ src/
 ├── voice/                   # Voice input
 ├── vim/                     # Vim mode
 └── ... (services, hooks, utils, etc.)
-
+'''bash
 
 ## Tech Stack Summary
 
