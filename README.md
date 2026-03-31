@@ -69,9 +69,9 @@ Examples:
 - Advanced memory extraction and team memory synchronization
 - Voice input, remote sessions, desktop/mobile handoff
 
-## Directory Structure (Top-Level)
+ Directory Structure (Top-Level)
 
-```bash
+
 src/
 ├── main.tsx                 # CLI entrypoint + Ink renderer
 ├── QueryEngine.ts           # ~46k lines — core LLM engine
@@ -89,3 +89,35 @@ src/
 ├── voice/                   # Voice input
 ├── vim/                     # Vim mode
 └── ... (services, hooks, utils, etc.)
+
+
+## Tech Stack Summary
+
+| Category          | Technology                          |
+|-------------------|-------------------------------------|
+| Runtime           | Bun                                 |
+| UI                | React + Ink                         |
+| CLI Parser        | Commander.js                        |
+| Validation        | Zod v4                              |
+| Auth              | OAuth 2.0 + JWT + macOS Keychain    |
+| Telemetry         | OpenTelemetry + gRPC                |
+| Feature Flags     | GrowthBook                          |
+| Protocols         | MCP SDK, LSP                        |
+
+## Disclaimer
+
+- This repository contains source code that was **accidentally leaked** by Anthropic through their npm publishing process.
+- All original intellectual property remains the property of Anthropic.
+- This archive is provided strictly for **research, educational, security analysis, and historical purposes**.
+- The leak contains **client-side code only** — no model weights, no system prompts, no user data.
+- Anthropic has since removed the source map from subsequent package versions.
+
+**Use responsibly.** Respect Anthropic's intellectual property and the terms of the Anthropic API.
+
+---
+
+*Archived on: March 31, 2026*  
+*Original leak discovery: [@Fried_rice](https://x.com/Fried_rice)*  
+*Mirror of the publicly extracted `src.zip` from Anthropic's R2 bucket*
+
+⭐ If you're researching AI agent architectures, tool-use systems, or modern CLI agent design, this is an unprecedented look inside one of the most advanced closed-source coding agents available in 2026.
