@@ -78,3 +78,11 @@ src/
 *Intellectual Property: All code and logic remain the property of Anthropic PBC.
 *This archive is provided "as-is" to assist the AI safety and developer communities in understanding modern autonomous agent architectures.
 
+---
+
+Archived on: March 31, 2026
+Original leak discovery: @Fried_rice
+
+>⭐If you're researching AI agent architectures, tool-use systems, or modern CLI agent design, this is an unprecedented look inside one of the most advanced closed-source coding agents available in 2026.
+
+---
